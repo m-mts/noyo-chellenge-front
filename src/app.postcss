@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply leading-normal;
+}
+
+body{
+    @apply bg-gray-50 font-sans h-full w-screen overflow-hidden;
+}
+
+#svelte{
+    @apply h-screen overflow-hidden;
+}
+
+h1 {
+@apply my-3 text-4xl font-normal;
+}
+
+h2 {
+@apply my-0 text-2xl font-semibold;
+}
+
+dl, ol, ul {
+@apply my-4 pl-3 list-inside;
+}
+
+ul {
+@apply list-disc;
+}
+
+a {
+@apply underline;
+}
+
+input, textarea {
+@apply block px-3 py-2 border rounded text-sm;
+}
+
+input:focus, textarea:focus {
+@apply outline-none;
+}
+
+label {
+@apply block mb-2 text-sm font-semibold;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+@apply inline-block px-4 py-2 bg-gray-200 font-semibold;
+}
+
