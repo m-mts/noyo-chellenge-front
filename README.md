@@ -27,3 +27,4 @@ to use nginx docker container for serve static files modify ./go with absolute p
 ```bash
 ./go
 ```
+and http://localhost:8080
