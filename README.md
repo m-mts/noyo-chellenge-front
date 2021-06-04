@@ -14,7 +14,6 @@ npm run dev -- --open
 
 ## Building
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
 --Currently prebuilded for static usage
 for SSR Build rename svelte.config-SSR.js to svelte.config.js
 
