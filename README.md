@@ -15,13 +15,14 @@ npm run dev -- --open
 ## Building
 
 --Currently prebuilded for static usage
-for SSR Build rename svelte.config-SSR.js to svelte.config.js
+
+for SSR rename svelte.config-SSR.js to svelte.config.js and
 
 ```bash
 npm run build
 ```
 
-to use nginx docker container foir serve static modify ./go with absolute path to build folder and run
+to use nginx docker container for serve static files modify ./go with absolute path to build folder and run
 
 ```bash
 ./go
